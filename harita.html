@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7b8aced6a6047c8ac440891c21035e25 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7b8aced6a6047c8ac440891c21035e25" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7b8aced6a6047c8ac440891c21035e25 = L.map(
+                "map_7b8aced6a6047c8ac440891c21035e25",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_569bc18585d6274bb4e6b07b8d8f6a87 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_569bc18585d6274bb4e6b07b8d8f6a87.addTo(map_7b8aced6a6047c8ac440891c21035e25);
+        
+    
+            var marker_3776fe222cb88d85ee32153724911cc5 = L.marker(
+                [37.4043, -122.0748],
+                {
+}
+            ).addTo(map_7b8aced6a6047c8ac440891c21035e25);
+        
+    
+        var popup_e2a3301d86ae7fd8582027c82d3458bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4aa9e2881fbc70a5b2a48c829ea6a3a7 = $(`<div id="html_4aa9e2881fbc70a5b2a48c829ea6a3a7" style="width: 100.0%; height: 100.0%;">216.58.213.110,sof04s03-in-f14.1e100.net - Mountain View, United States</div>`)[0];
+                popup_e2a3301d86ae7fd8582027c82d3458bd.setContent(html_4aa9e2881fbc70a5b2a48c829ea6a3a7);
+            
+        
+
+        marker_3776fe222cb88d85ee32153724911cc5.bindPopup(popup_e2a3301d86ae7fd8582027c82d3458bd)
+        ;
+
+        
+    
+    
+            var marker_7c2c6f98a8908e06d847905adfb6fff3 = L.marker(
+                [42.6977, 23.3219],
+                {
+}
+            ).addTo(map_7b8aced6a6047c8ac440891c21035e25);
+        
+    
+        var popup_491bd8b316e41d0af076ee086289b06f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_54975d42bd37dac261f109569adcf4b3 = $(`<div id="html_54975d42bd37dac261f109569adcf4b3" style="width: 100.0%; height: 100.0%;">142.251.141.42,sof04s07-in-f10.1e100.net - Sofia, Bulgaria</div>`)[0];
+                popup_491bd8b316e41d0af076ee086289b06f.setContent(html_54975d42bd37dac261f109569adcf4b3);
+            
+        
+
+        marker_7c2c6f98a8908e06d847905adfb6fff3.bindPopup(popup_491bd8b316e41d0af076ee086289b06f)
+        ;
+
+        
+    
+    
+            var marker_dc2f7bae8b072a8c666b05b2bbed8e30 = L.marker(
+                [42.6977, 23.3219],
+                {
+}
+            ).addTo(map_7b8aced6a6047c8ac440891c21035e25);
+        
+    
+        var popup_a86d89b998682cbf5d6631aaa3d91095 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4dc4b08aee7002988162371883b07218 = $(`<div id="html_4dc4b08aee7002988162371883b07218" style="width: 100.0%; height: 100.0%;">142.250.187.174,sof02s46-in-f14.1e100.net - Sofia, Bulgaria</div>`)[0];
+                popup_a86d89b998682cbf5d6631aaa3d91095.setContent(html_4dc4b08aee7002988162371883b07218);
+            
+        
+
+        marker_dc2f7bae8b072a8c666b05b2bbed8e30.bindPopup(popup_a86d89b998682cbf5d6631aaa3d91095)
+        ;
+
+        
+    
+    
+            var marker_36eacc1fc0409db3796ca4722321b320 = L.marker(
+                [41.0019, 28.9645],
+                {
+}
+            ).addTo(map_7b8aced6a6047c8ac440891c21035e25);
+        
+    
+        var popup_fc7575f01f8fb26746764e685c6cb3a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d14d86701c45f1fd93c526b99cc6c57f = $(`<div id="html_d14d86701c45f1fd93c526b99cc6c57f" style="width: 100.0%; height: 100.0%;">2.19.193.43,a2-19-193-43.deploy.static.akamaitechnologies.com - Istanbul, Türkiye</div>`)[0];
+                popup_fc7575f01f8fb26746764e685c6cb3a7.setContent(html_d14d86701c45f1fd93c526b99cc6c57f);
+            
+        
+
+        marker_36eacc1fc0409db3796ca4722321b320.bindPopup(popup_fc7575f01f8fb26746764e685c6cb3a7)
+        ;
+
+        
+    
+    
+            var marker_05032c64b8136028a3427fc5ddb8d135 = L.marker(
+                [37.4043, -122.0748],
+                {
+}
+            ).addTo(map_7b8aced6a6047c8ac440891c21035e25);
+        
+    
+        var popup_474fa8e25a3fee426cf006ce620a3012 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfd2adbb878b4f1aa1e2679ed2095669 = $(`<div id="html_bfd2adbb878b4f1aa1e2679ed2095669" style="width: 100.0%; height: 100.0%;">216.58.212.22,sof04s01-in-f22.1e100.net - Mountain View, United States</div>`)[0];
+                popup_474fa8e25a3fee426cf006ce620a3012.setContent(html_bfd2adbb878b4f1aa1e2679ed2095669);
+            
+        
+
+        marker_05032c64b8136028a3427fc5ddb8d135.bindPopup(popup_474fa8e25a3fee426cf006ce620a3012)
+        ;
+
+        
+    
+    
+            var marker_7be67104df6227ea4d34bee984264550 = L.marker(
+                [39.0997, -94.5785],
+                {
+}
+            ).addTo(map_7b8aced6a6047c8ac440891c21035e25);
+        
+    
+        var popup_991900b76da289be1f38aa2b6841bf03 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67077d0896a71f94bffe54ff48c55a21 = $(`<div id="html_67077d0896a71f94bffe54ff48c55a21" style="width: 100.0%; height: 100.0%;">35.190.80.1,1.80.190.35.bc.googleusercontent.com - Kansas City, United States</div>`)[0];
+                popup_991900b76da289be1f38aa2b6841bf03.setContent(html_67077d0896a71f94bffe54ff48c55a21);
+            
+        
+
+        marker_7be67104df6227ea4d34bee984264550.bindPopup(popup_991900b76da289be1f38aa2b6841bf03)
+        ;
+
+        
+    
+    
+            var marker_c673c80f87c3405989b8680041cbd8a8 = L.marker(
+                [42.6977, 23.3219],
+                {
+}
+            ).addTo(map_7b8aced6a6047c8ac440891c21035e25);
+        
+    
+        var popup_f060598f81d80149089e29c2148ba56a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88d47e86c81eaee072a70682b54cd41a = $(`<div id="html_88d47e86c81eaee072a70682b54cd41a" style="width: 100.0%; height: 100.0%;">142.250.184.129,sof02s43-in-f1.1e100.net - Sofia, Bulgaria</div>`)[0];
+                popup_f060598f81d80149089e29c2148ba56a.setContent(html_88d47e86c81eaee072a70682b54cd41a);
+            
+        
+
+        marker_c673c80f87c3405989b8680041cbd8a8.bindPopup(popup_f060598f81d80149089e29c2148ba56a)
+        ;
+
+        
+    
+    
+            var marker_64f730a94547c00ef2e1ab9f180402ba = L.marker(
+                [51.5012, 0.0599953],
+                {
+}
+            ).addTo(map_7b8aced6a6047c8ac440891c21035e25);
+        
+    
+        var popup_0c665265b9d98944192cc2215dbc7eb0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c17cbb78b6fd26931dca2993b74d1762 = $(`<div id="html_c17cbb78b6fd26931dca2993b74d1762" style="width: 100.0%; height: 100.0%;">185.125.190.56,prod-ntp-3.ntp4.ps5.canonical.com - London, United Kingdom</div>`)[0];
+                popup_0c665265b9d98944192cc2215dbc7eb0.setContent(html_c17cbb78b6fd26931dca2993b74d1762);
+            
+        
+
+        marker_64f730a94547c00ef2e1ab9f180402ba.bindPopup(popup_0c665265b9d98944192cc2215dbc7eb0)
+        ;
+
+        
+    
+    
+            var marker_306a74fdc1bb26a8137659066001b113 = L.marker(
+                [42.6977, 23.3219],
+                {
+}
+            ).addTo(map_7b8aced6a6047c8ac440891c21035e25);
+        
+    
+        var popup_a49920c7f5e3ff2561fbaa3b3ffc4457 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ca6f37b313e9e048354d7b5af9aade6 = $(`<div id="html_8ca6f37b313e9e048354d7b5af9aade6" style="width: 100.0%; height: 100.0%;">142.251.140.14,sof04s04-in-f14.1e100.net - Sofia, Bulgaria</div>`)[0];
+                popup_a49920c7f5e3ff2561fbaa3b3ffc4457.setContent(html_8ca6f37b313e9e048354d7b5af9aade6);
+            
+        
+
+        marker_306a74fdc1bb26a8137659066001b113.bindPopup(popup_a49920c7f5e3ff2561fbaa3b3ffc4457)
+        ;
+
+        
+    
+</script>
+</html>
